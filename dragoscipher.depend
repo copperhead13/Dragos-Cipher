@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1633808615 source:e:\proiecte dragos\info\qwertydragos\main.cpp
+	<iostream>
+	<string>
+	<cstring>
+
