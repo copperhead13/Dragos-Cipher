@@ -14,7 +14,7 @@ int main()
         cout<<"Pick option: ";
         cin>>n;
 
-    }while(n<1 && n>2); //1=Criptare 2=Decriptare
+    }while(n<1 || n>2); //1=Criptare 2=Decriptare
     cout<<"Give Text:";
     cin>>s;
     if(n==1)
