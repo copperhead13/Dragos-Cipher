@@ -20,6 +20,7 @@ int main()
     if(n==1)
     {
         strcpy(r,s);
+        cout<<"Encoded Text:";
         for(i=0;i<strlen(s);i++)
         {
             if(s[i]==' ' || s[i]==',')
@@ -30,13 +31,13 @@ int main()
                 r[i]=cod1;
             }
             cout<<cod1;
-
         }
         cout<<r[i];
     }
     if(n==2)
     {
          strcpy(r,s);
+         cout<<"Decoded text";
         for(i=0;i<strlen(s);i++)
         {
             if(s[i]==' ' || s[i]==',')
