@@ -15,12 +15,12 @@ int main()
         cin>>n;
 
     }while(n<1 || n>2); //1=Criptare 2=Decriptare
-    cout<<"Give Text:";
+    cout<<"Give Text: ";
     cin>>s;
     if(n==1)
     {
         strcpy(r,s);
-        cout<<"Encoded Text:";
+        cout<<"Encoded Text: ";
         for(i=0;i<strlen(s);i++)
         {
             if(s[i]==' ' || s[i]==',')
@@ -37,7 +37,7 @@ int main()
     if(n==2)
     {
          strcpy(r,s);
-         cout<<"Decoded text";
+         cout<<"Decoded text: ";
         for(i=0;i<strlen(s);i++)
         {
             if(s[i]==' ' || s[i]==',')
