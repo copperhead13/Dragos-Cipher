@@ -1,9 +1,0 @@
-﻿  VSCipher.cpp
-D:\Info\VSCipher\VSCipher.cpp(18,18): error C3863: array type 'char [300000]' is not assignable
-D:\Info\VSCipher\VSCipher.cpp(19,24): error C2440: '=': cannot convert from 'char [300000]' to 'char'
-D:\Info\VSCipher\VSCipher.cpp(19,20): message : There is no context in which this conversion is possible
-D:\Info\VSCipher\VSCipher.cpp(11,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Info\VSCipher\VSCipher.cpp(34,18): error C3863: array type 'char [300000]' is not assignable
-D:\Info\VSCipher\VSCipher.cpp(35,24): error C2440: '=': cannot convert from 'char [300000]' to 'char'
-D:\Info\VSCipher\VSCipher.cpp(35,20): message : There is no context in which this conversion is possible
-D:\Info\VSCipher\VSCipher.cpp(27,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
