@@ -16,7 +16,8 @@ int main()
 
     }while(n<1 || n>2); //1=Criptare 2=Decriptare
     cout<<"Give Text: ";
-    cin>>s;
+    cin.get();
+    cin.getline(s,300000);
     if(n==1)
     {
         strcpy(r,s);
@@ -30,9 +31,8 @@ int main()
                 cod1=char(v[int(s[i])]);
                 r[i]=cod1;
             }
-            cout<<cod1;
+            cout<<r[i];
         }
-        cout<<r[i];
     }
     if(n==2)
     {
@@ -47,9 +47,8 @@ int main()
                 cod2=char(d[int(s[i])]);
                 r[i]=cod2;
             }
-            cout<<cod2;
+            cout<<r[i];
         }
-        cout<<r[i];
     }
 
     return 0;
