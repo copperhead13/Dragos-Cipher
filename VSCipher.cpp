@@ -65,8 +65,13 @@ int main()
     }
     if(n==3)
     {
-        cout<<"Number of encodings: ";
-        cin>>x;
+        do
+        {
+            cout<<"Number of encodings: ";
+            cin>>x;
+
+        }
+        while(x>40);
         cout<<"Encoded text: ";
         while(x!=0)
         {
@@ -77,8 +82,13 @@ int main()
     }
     if(n==4)
     {
-        cout<<"Number of decodings: ";
-        cin>>x;
+        do
+        {
+            cout<<"Number of decodings: ";
+            cin>>x;
+
+        }
+        while(x>40);
         cout<<"Decoded text: ";
         while(x!=0)
         {
