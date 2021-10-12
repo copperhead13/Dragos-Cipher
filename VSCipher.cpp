@@ -11,7 +11,7 @@ void encode(char s[300000], char r[300000])
     strcpy(r,s);
     for(i=0; i<strlen(s); i++)
     {
-        if(s[i]==' ' || s[i]==',' || s[i]=='.')
+        if(s[i]==' ' || s[i]==',' || s[i]=='.' || s[i]=='-')
             continue;
         else
         {
@@ -27,7 +27,7 @@ void decode(char s[300000], char r[300000])
     strcpy(r,s);
     for(i=0; i<strlen(s); i++)
     {
-        if(s[i]==' ' || s[i]==',')
+        if(s[i]==' ' || s[i]==',' || s[i]=='.' || s[i]=='-')
             continue;
         else
         {
